@@ -113,7 +113,7 @@ Finally, we can remote mysql on the server to SQL Client such as DBeaver and oth
 
 
 ## Clone File JAR Project from Github
-clone the project JAR file from github, to run on the server
+clone the project JAR file from github, to run on the server.<br >
 In `/var/www/` enter jar
 <br ><br ><br >
 
@@ -244,7 +244,7 @@ Delete symlink: `sudo rm <symlink location>`
 
 Know the IP address associated with a domain name: `nslookup yourdomain.com`
 
-Example of database connection to psql ubuntu server
+Example of database connection to mysql ubuntu server
 ```
 spring.datasource.url=jdbc:mysql://<ipserver>:3306/<namadatabase>
 spring.datasource.username=cloudadmin
